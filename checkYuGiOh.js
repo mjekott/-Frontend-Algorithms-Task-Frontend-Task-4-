@@ -24,6 +24,4 @@ function checkYuGiOh(n) {
   return `${JSON.stringify(arr)}`;
 }
 
-console.log(checkYuGiOh(10));
-console.log(checkYuGiOh(5));
-console.log(checkYuGiOh('fizzbuzz is meh'));
+module.exports = checkYuGiOh;

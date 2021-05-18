@@ -12,7 +12,4 @@ function convertFahrToCelsius(parameter) {
   return `${result.toFixed(4)}`;
 }
 
-console.log(convertFahrToCelsius(0));
-console.log(convertFahrToCelsius('0'));
-console.log(convertFahrToCelsius([1, 2, 3]));
-console.log(convertFahrToCelsius({ temp: 0 }));
+module.exports = convertFahrToCelsius;
